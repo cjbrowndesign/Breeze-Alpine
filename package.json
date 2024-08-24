@@ -1,0 +1,17 @@
+{
+  "name": "breeze-alpine",
+  "version": "1.0.0",
+  "description": "Plugins to extend AlpineJS",
+  "main": "dist/plugins.js",
+  "author": "Cj Brown <hello@cjbrowndesign.co.uk>",
+  "scripts": {
+    "build": "esbuild src/index.js --format=esm --bundle --minify --sourcemap --outfile=dist/plugins.js"
+  },
+  "private": true,
+  "peerDependencies": {
+    "alpinejs": "^3.10.5"
+  },
+  "devDependencies": {
+    "esbuild": "0.19.9"
+  }
+}
